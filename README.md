@@ -42,7 +42,7 @@ Microfrontends enable independent development of individual components, allowing
 
 ## Testing
 
-[Information on how to run tests, what kind of tests are included, and how to interpret the results.]
+I have not written Unit or E2E tests for this app
 
 ## Deployment
 
