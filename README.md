@@ -5,40 +5,31 @@ A Simple MicroFrontEnd POC with React, JavaScript and WebPack Module Federation 
 ## Table of Contents
 - [Overview](#overview)
 - [Getting Started](#getting-started)
-- [Microfrontends](#microfrontends)
 - [Usage](#usage)
-- [Development](#development)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
 This microfrontend App has four Apps: 
-    Host, 
-    Home, 
-    Authentication 
-    MarketPlace
+- [Host](localhost:8080)
+- [MarketPlace](localhost:8081) 
+- [Authentication](localhost:8082)
+- [Home](localhost:8083)
+    
 
 Microfrontends enable independent development of individual components, allowing teams to work autonomously on different parts of the application.
 
 
 ## Getting Started
 
-[Instructions on how to clone, install dependencies, and set up the project locally.]
-
-## Microfrontends
-
-[Explain the concept of microfrontends used in the project and how they contribute to modular development.]
+- 1. Do npm install in each of the above apps
+- 2. Do npm start in each of the above apps
 
 ## Usage
 
-[Provide examples and instructions on how to use the application.]
+Use http://localhost:8080 to access the container or host application.
 
-## Development
-
-[Explain the development workflow, coding standards, and any other relevant information for developers.]
 
 ## Testing
 

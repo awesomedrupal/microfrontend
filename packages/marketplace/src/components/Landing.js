@@ -1,41 +1,13 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import MaterialLink from "@material-ui/core/Link";
-import { Link } from "react-router-dom";
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {"Copyright © "}
-      <MaterialLink component={Link} to="/" color="inherit">
-        Your Website
-      </MaterialLink>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
 
 const useStyles = makeStyles((theme) => ({
-  "@global": {
-    a: {
-      textDecoration: "none"
-    }
-  },
-  icon: {
-    marginRight: theme.spacing(2)
-  },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6)
+    padding: theme.spacing(8, 0, 6),
   },
-  heroButtons: {
-    marginTop: theme.spacing(4)
-  }
 }));
 
 export default function Landing() {
@@ -44,7 +16,6 @@ export default function Landing() {
   return (
     <>
       <main>
-        {/* Hero unit */}
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography
@@ -62,9 +33,16 @@ export default function Landing() {
               color="textSecondary"
               paragraph
             >
-              Something short and leading about the collection below—its
-              contents, the creator, etc. Make it short and sweet, but not too
-              short so folks don&apos;t simply skip over it entirely.
+              Microfrontends is an architectural approach that involves breaking
+              down a frontend monolith into smaller, independently deployable
+              and manageable units. Each unit, or microfrontend, represents a
+              specific feature or functionality of the application. These
+              microfrontends can be developed, tested, deployed, and scaled
+              independently, allowing for greater flexibility and agility in
+              frontend development. The goal is to enable different teams to
+              work on separate parts of the user interface, promoting faster
+              development cycles, easier maintenance, and improved collaboration
+              across diverse development teams.
             </Typography>
           </Container>
         </div>
